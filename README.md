@@ -1,2 +1,5 @@
 # ontologie_masterTAL
-Sexy Pépitas
+L'équipe des Sexy Pépitas vous présente : 
+# L'ontologie du MASTER TAL 
+
+
