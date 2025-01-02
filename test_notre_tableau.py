@@ -3,6 +3,7 @@ from rdflib import Graph, Literal, RDF, URIRef
 from rdflib.namespace import FOAF , XSD
 
 
+base_uri = "http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL"
 
 print("ESSAI DE CREATION EN BOUCLE MANUELLE")
 
