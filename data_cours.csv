@@ -1,0 +1,11 @@
+@id,my:nom_cours(xsd:string),my:dispensePar{URIRef},my:hasHorraire(xsd:integer)
+cours_1,PPE1,"['Dupond', 'Magistry']",3
+cours_2,PPE2,"['Dupond', 'Magistry']",3
+cours_3,Python1,Iris,4
+cours_4,MAAT,DelphineBattistelli,5
+cours_5,LangageRegulier,DamienNouvelle,6
+cours_6,GIM,IlaineWang,7
+cours_7,StatistiquesR,DelphineBattistelli,8
+cours_8,Methodologie,MarcelCory,9
+cours_9,BDD,Iris,10
+cours_10,SyntheseParole,Cedric,1
