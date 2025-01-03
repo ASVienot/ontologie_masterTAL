@@ -309,9 +309,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#nationnalite -->
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#nationalite -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#nationnalite">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#nationalite">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Personne"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
@@ -505,11 +505,15 @@
 
     <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#DevoirMaison -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#DevoirMaison">
+    <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#DevoirMaisonGroupe">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Evaluation"/>
     </owl:Class>
     
+   <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#DevoirMaison -->
 
+    <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#DevoirMaisonSolo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Evaluation"/>
+    </owl:Class>
 
     <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#DevoirTable -->
 
@@ -611,7 +615,19 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Evaluation"/>
     </owl:Class>
     
+   <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#OralGroupe -->
 
+    <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#OralGroupe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Evaluation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#OralSolo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#OralSolo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Evaluation"/>
+    </owl:Class>
 
     <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#RD -->
 
@@ -634,23 +650,6 @@
     <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#TetraDom">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#M2"/>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#SorbonneNouvelle -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#SorbonneNouvelle"/>
 </rdf:RDF>
 
 
