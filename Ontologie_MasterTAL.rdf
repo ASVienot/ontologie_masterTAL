@@ -22,6 +22,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#aCommeDirecteurDeMemoire -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#aCommeDirecteurDeMemoire">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#dirigeLeMemoireDe"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Eleve"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Enseignant"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#aCommeEleve -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#aCommeEleve">
@@ -40,11 +50,50 @@
     
 
 
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#aCommeExperience -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#aCommeExperience">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Eleve"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#ExperienceTAL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#aPourTuteurDeStage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#aPourTuteurDeStage">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#estLeTuteurDeStageDe"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Eleve"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Enseignant"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#dirige -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#dirige">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#dirigePar"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Enseignant"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Memoire"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#dirigeLeMemoireDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#dirigeLeMemoireDe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Enseignant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Eleve"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#dirigePar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#dirigePar">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Memoire"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Enseignant"/>
     </owl:ObjectProperty>
     
 
@@ -59,20 +108,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#emploie -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#emploie">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#employePar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Etablissement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Enseignant"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#employePar -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#employePar">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Enseignant"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Etablissement"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#encadre -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#encadre">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Enseignant"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Eleve"/>
     </owl:ObjectProperty>
     
 
@@ -91,6 +141,15 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#enseigneA">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Cours"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Etablissement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#estLeTuteurDeStageDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#estLeTuteurDeStageDe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Enseignant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Eleve"/>
     </owl:ObjectProperty>
     
 
@@ -248,6 +307,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#duree -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#duree">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#ExperienceTAL"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#genre -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#genre">
@@ -327,6 +395,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#nomOrganismeAcceuil -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#nomOrganismeAcceuil">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#ExperienceTAL"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#nom_cours -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#nom_cours">
@@ -354,6 +431,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#note_experience -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#note_experience">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#ExperienceTAL"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#prenom -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#prenom">
@@ -376,7 +462,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#quota_pleure">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Eleve"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -420,7 +506,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#sante_apres">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Eleve"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -429,7 +515,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#sante_avant">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Eleve"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -438,6 +524,15 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#suggestion_maquette">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Eleve"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#sujetMissions -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#sujetMissions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#ExperienceTAL"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -470,6 +565,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#typeOrganisme -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#typeOrganisme">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#ExperienceTAL"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -489,9 +593,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#CDD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#CDD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Emploi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#CDI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#CDI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Emploi"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Composant_master -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Composant_master"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#ContratAlternance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#ContratAlternance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#ExperienceTAL"/>
+    </owl:Class>
     
 
 
@@ -503,17 +631,21 @@
     
 
 
-    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#DevoirMaison -->
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#DevoirMaisonGroupe -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#DevoirMaisonGroupe">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Evaluation"/>
     </owl:Class>
     
-   <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#DevoirMaison -->
+
+
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#DevoirMaisonSolo -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#DevoirMaisonSolo">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Evaluation"/>
     </owl:Class>
+    
+
 
     <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#DevoirTable -->
 
@@ -527,6 +659,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Eleve">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Personne"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Emploi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Emploi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#ExperienceTAL"/>
     </owl:Class>
     
 
@@ -552,6 +692,12 @@
     <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Evaluation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Composant_master"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#ExperienceTAL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#ExperienceTAL"/>
     
 
 
@@ -587,6 +733,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#OralGroupe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#OralGroupe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Evaluation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#OralSolo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#OralSolo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Evaluation"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Parcours -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Parcours">
@@ -615,19 +777,7 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Evaluation"/>
     </owl:Class>
     
-   <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#OralGroupe -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#OralGroupe">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Evaluation"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#OralSolo -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#OralSolo">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Evaluation"/>
-    </owl:Class>
 
     <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#RD -->
 
@@ -640,7 +790,7 @@
     <!-- http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Stage -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Stage">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Composant_master"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#ExperienceTAL"/>
     </owl:Class>
     
 
