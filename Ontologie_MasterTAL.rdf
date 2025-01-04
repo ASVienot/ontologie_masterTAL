@@ -284,7 +284,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#dateNaissance">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Personne"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -293,7 +293,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#difficulte_M1">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Eleve"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
@@ -302,7 +302,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#difficulte_M2">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Eleve"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
@@ -506,7 +506,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#sante_apres">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Eleve"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
@@ -515,7 +515,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#sante_avant">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Eleve"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
@@ -551,7 +551,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#temps_sommeil">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tacitus/ontologies/2024/11/MASTER_TAL#Eleve"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
