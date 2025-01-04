@@ -1,0 +1,76 @@
+nom_cours,id_prof,nom_prof,prenom_prof,etablissement,annee,id_cours
+acquisition modelisation/representation,Ons_AOUINA,AOUINA,Ons,Inalco,2024-2025,acquisition_modelisation_representation_2024_2025
+actualite dans le monde anglophone,,,,SorbonneNouvelle,2024-2025,actualite_dans_le_monde_anglophone_2024_2025
+anglais de specialite 2,Loulou_KOSMALA,KOSMALA,Loulou,Nanterre,2023-2024,anglais_de_specialite_2_2023_2024
+anglais pro,Christophe_HUP,HUP,Christophe,Nanterre,2024-2025,anglais_pro_2024_2025
+annotations semantiques et applications en recherche d'information,Delphine_BATTISTELLI,BATTISTELLI,Delphine,Nanterre,2024-2025,annotations_semantiques_et_applications_en_recherche_d_information_2024_2025
+apprentissage automatique,Loïc_GROBOL,GROBOL,Loïc,Nanterre,2024-2025,apprentissage_automatique_2024_2025
+arbres graphes,Loïc_GROBOL,GROBOL,Loïc,Nanterre,2024-2025,arbres_graphes_2024_2025
+bases de donnees pour linguistes,Iris_ESHKOL-TARAVELLA,ESHKOL-TARAVELLA,Iris,Nanterre,2023-2024,bases_de_donnees_pour_linguistes_2023_2024
+calculabilite,Patrick_PAROUBECK,PAROUBECK,Patrick,Inalco,2024-2025,calculabilite_2024_2025
+changements linguistiques,"['Sabine_LEHMANN', 'Vanessa_PICCOLI']","['LEHMANN', 'PICCOLI']","['Sabine', 'Vanessa']",Nanterre,2023-2024,changements_linguistiques_2023_2024
+cnn,Cedric_GENDROT,GENDROT,Cedric,SorbonneNouvelle,2024-2025,cnn_2024_2025
+conduite de projet de traduction 1,Sophie_GAUMET,GAUMET,Sophie,Inalco,2024-2025,conduite_de_projet_de_traduction_1_2024_2025
+coreen,Kyung_LEE,LEE,Kyung,Inalco,2023-2024,coreen_2023_2024
+corpus arbores et parsing,Santiago_HERRERA,HERRERA,Santiago,Nanterre,2023-2024,corpus_arbores_et_parsing_2023_2024
+corpus paralleles et comparables,Pierre_ZWEIGENBAUM,ZWEIGENBAUM,Pierre,Inalco,2023-2024,corpus_paralleles_et_comparables_2023_2024
+de la modelisation au traitement automatique des donnees linguistiques,Iris_ESHKOL-TARAVELLA,ESHKOL-TARAVELLA,Iris,Nanterre,2024-2025,de_la_modelisation_au_traitement_automatique_des_donnees_linguistiques_2024_2025
+document structure,Michel_JACOBSON,JACOBSON,Michel,SorbonneNouvelle,2023-2024,document_structure_2023_2024
+documents structures,Rim_ABROUGUI,ABROUGUI,Rim,Inalco,2024-2025,documents_structures_2024_2025
+ecriture et multilinguisme,Ilaine_WANG,WANG,Ilaine,Inalco,2024-2025,ecriture_et_multilinguisme_2024_2025
+enrichissement de corpus,Iris_ESHKOL-TARAVELLA,ESHKOL-TARAVELLA,Iris,Nanterre,2023-2024,enrichissement_de_corpus_2023_2024
+extraction d'informations,Chloé_MONNIN-TUILLIER,MONNIN-TUILLIER,Chloé,Inalco,2023-2024,extraction_d_informations_2023_2024
+fouille de textes 1,Cyril_GROUIN,GROUIN,Cyril,Inalco,2024-2025,fouille_de_textes_1_2024_2025
+genres textes et usages,Mathieu_VALETTE,VALETTE,Mathieu,Inalco,2024-2025,genres_textes_et_usages_2024_2025
+gest. info multilinguisme,Ilaine_WANG,WANG,Ilaine,Inalco,2023-2024,gest__info_multilinguisme_2023_2024
+gestion de projets,Benoît_CARCENAC,CARCENAC,Benoît,Nanterre,2024-2025,gestion_de_projets_2024_2025
+ingenierie des connaissances,"['Delphine_BATTISTELLI', 'Iris_ESHKOL-TARAVELLA']","['BATTISTELLI', 'ESHKOL-TARAVELLA']","['Delphine', 'Iris']",Nanterre,2024-2025,ingenierie_des_connaissances_2024_2025
+interfaces pour le web,Loïc_GROBOL,GROBOL,Loïc,Nanterre,2024-2025,interfaces_pour_le_web_2024_2025
+introduction a la fouille de textes,Yoann_DUPONT,DUPONT,Yoann,SorbonneNouvelle,2023-2024,introduction_a_la_fouille_de_textes_2023_2024
+khmer,Suppya_NUT,NUT,Suppya,Inalco,2023-2024,khmer_2023_2024
+langages de script (jourdain),Louis_JOURDAIN,JOURDAIN,Louis,Inalco,2024-2025,langages_de_script_(jourdain)_2024_2025
+langages de script (python inalco),Alexandre_ROULOIS,ROULOIS,Alexandre,Inalco,2023-2024,langages_de_script_(python_inalco)_2023_2024
+langages de script (roulois),Alexandre_ROULOIS,ROULOIS,Alexandre,Inalco,2024-2025,langages_de_script_(roulois)_2024_2025
+langages du web semantique,Iris_ESHKOL-TARAVELLA,ESHKOL-TARAVELLA,Iris,Nanterre,2024-2025,langages_du_web_semantique_2024_2025
+langages reguliers,Damien_NOUVEL,NOUVEL,Damien,Inalco,2023-2024,langages_reguliers_2023_2024
+langue des signes,Hatice_AKSEN,AKSEN,Hatice,Nanterre,2024-2025,langue_des_signes_2024_2025
+langues vivantes etrangeres,Armand_STRICKER,STRICKER,Armand,Inalco,2023-2024,langues_vivantes_etrangeres_2023_2024
+large corpus linguistics,Sophie_RAINERIE,RAINERIE,Sophie,Nanterre,2023-2024,large_corpus_linguistics_2023_2024
+lexicologie terminologie et dictionnairique,,,,Inalco,2024-2025,lexicologie_terminologie_et_dictionnairique_2024_2025
+lexique et morphologie,Kata_GABOR,GABOR,Kata,Inalco,2023-2024,lexique_et_morphologie_2023_2024
+linguistique de la lsf,Caroline_BOGLIOTTI,BOGLIOTTI,Caroline,Inalco,2023-2024,linguistique_de_la_lsf_2023_2024
+linguistique outillee et traitements statistiques,Delphine_BATTISTELLI,BATTISTELLI,Delphine,Nanterre,2024-2025,linguistique_outillee_et_traitements_statistiques_2024_2025
+mathematiques pour le tal,Loïc_GROBOL,GROBOL,Loïc,Nanterre,2023-2024,mathematiques_pour_le_tal_2023_2024
+methodologie de la recherche,Marcel_CORI,CORI,Marcel,Nanterre,2024-2025,methodologie_de_la_recherche_2024_2025
+modelisation automatique pour l'analyse de textes,Delphine_BATTISTELLI,BATTISTELLI,Delphine,Nanterre,2023-2024,modelisation_automatique_pour_l_analyse_de_textes_2023_2024
+modelisation des langues,Sylvain_KAHANE,KAHANE,Sylvain,Nanterre,2024-2025,modelisation_des_langues_2024_2025
+mooc,,,,Nanterre,2023-2024,mooc_2023_2024
+morphologie,Florence_VILLEOING,VILLEOING,Florence,Inalco,2023-2024,morphologie_2023_2024
+nlp in english,Armand_STRICKER,STRICKER,Armand,Nanterre,2023-2024,nlp_in_english_2023_2024
+outils de tao 1,Karolina_KUBIK,KUBIK,Karolina,Inalco,2024-2025,outils_de_tao_1_2024_2025
+outils de traitement de corpus,Eve_SAUVAGE,SAUVAGE,Eve,Inalco,2023-2024,outils_de_traitement_de_corpus_2023_2024
+phonetique physiologique et acoustique,Cedric_GENDROT,GENDROT,Cedric,Inalco,2023-2024,phonetique_physiologique_et_acoustique_2023_2024
+polonais,Natalia_LASON,LASON,Natalia,SorbonneNouvelle,2023-2024,polonais_2023_2024
+ppe1,"['Yoann_DUPONT', 'Pierre_MAGISTRY']","['DUPONT', 'MAGISTRY']","['Yoann', 'Pierre']",Inalco,2023-2024,ppe1_2023_2024
+ppe2,"['Yoann_DUPONT', 'Pierre_MAGISTRY']","['DUPONT', 'MAGISTRY']","['Yoann', 'Pierre']",SorbonneNouvelle,2023-2024,ppe2_2023_2024
+pratiques textuelles et traduction,Zhu_LICHAO,LICHAO,Zhu,SorbonneNouvelle,2023-2024,pratiques_textuelles_et_traduction_2023_2024
+principes de bases de donnees,,,,Inalco,2023-2024,principes_de_bases_de_donnees_2023_2024
+programmation et algorithmique 1,Iris_ESHKOL-TARAVELLA,ESHKOL-TARAVELLA,Iris,Inalco,2023-2024,programmation_et_algorithmique_1_2023_2024
+programmation et algorithmique 2,Mathieu_DEHOUCK,DEHOUCK,Mathieu,Nanterre,2023-2024,programmation_et_algorithmique_2_2023_2024
+programmation objet 1,Florent_JACQUEMARD,JACQUEMARD,Florent,SorbonneNouvelle,2023-2024,programmation_objet_1_2023_2024
+programmation objet 2,Florent_JACQUEMARD,JACQUEMARD,Florent,Inalco,2023-2024,programmation_objet_2_2023_2024
+programmation orientee objet 1,Louis_LECAILLIEZ,LECAILLIEZ,Louis,Inalco,2024-2025,programmation_orientee_objet_1_2024_2025
+recueil de donnees et statistiques,Xibin_WANG,WANG,Xibin,Inalco,2023-2024,recueil_de_donnees_et_statistiques_2023_2024
+redaction professionnelle,,,,Nanterre,2023-2024,redaction_professionnelle_2023_2024
+semantique computationnelle,Pascal_AMSILI,AMSILI,Pascal,SorbonneNouvelle,2024-2025,semantique_computationnelle_2024_2025
+semantique des textes multilingues 1,Mathieu_VALETTE,VALETTE,Mathieu,Inalco,2024-2025,semantique_des_textes_multilingues_1_2024_2025
+semantique lexicale et textuelle,Mathieu_VALETTE,VALETTE,Mathieu,Inalco,2023-2024,semantique_lexicale_et_textuelle_2023_2024
+seminaire: tal et linguistique de corpus,Iris_ESHKOL-TARAVELLA,ESHKOL-TARAVELLA,Iris,Nanterre,2024-2025,seminaire:_tal_et_linguistique_de_corpus_2024_2025
+sens multiple,,,,SorbonneNouvelle,2023-2024,sens_multiple_2023_2024
+sociolinguistique,James_COSTA,COSTA,James,SorbonneNouvelle,2023-2024,sociolinguistique_2023_2024
+statistiques textuelles,Damien_NOUVEL,NOUVEL,Damien,Inalco,2023-2024,statistiques_textuelles_2023_2024
+synthese de la parole,Cedric_GENDROT,GENDROT,Cedric,Inalco,2023-2024,synthese_de_la_parole_2023_2024
+traduction automatique et assistee,Nasredine_SEMMAR,SEMMAR,Nasredine,Inalco,2023-2024,traduction_automatique_et_assistee_2023_2024
+traduction technique 1,Marie-Paule_BONNAFOUS,BONNAFOUS,Marie-Paule,Inalco,2024-2025,traduction_technique_1_2024_2025
+traductologie 1,Zhu_LICHAO,LICHAO,Zhu,Inalco,2024-2025,traductologie_1_2024_2025
+traitement statistique de corpus,Damien_NOUVEL,NOUVEL,Damien,Inalco,2024-2025,traitement_statistique_de_corpus_2024_2025
