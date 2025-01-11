@@ -1,0 +1,28 @@
+id_eleves,nom_eleves,prenom_eleves,stages_m1_type_orga,stages_m1_nom_orga,stages_m1_duree,stages_m1_sujet,stages_m1_tuteur,stages_m1_note,stages_m2_type_orga,stages_m2_nom_orga,stages_m2_duree,stages_m2_sujet,stages_m2_tuteur,stages_m2_note,stages_m2_tetrarechim_type_orga,stages_m2_tetrarechim_nom_orga,stages_m2_tetrarechim_duree,stages_m2_tetrarechim_sujet,stages_m2_tetrarechim_memoire,stages_m2_tetrarechim_tuteur,stages_m2_alternance_contrat,stages_m2_alternance_type_org_stage,stages_m2_alternance_duree_stage,stages_m2_alternance_missions_stage,stages_m2_alternance_type_org_alt,stages_m2_alternance_missions_alt,id_m_1,id_m_2,id_m_2_alt_stage,id_m_2_alt_alt,id_m_2_tetrarechim
+Pauline_DÉGEZ,DÉGEZ,Pauline,Laboratoire,"MODYCO, CNRS",3 mois,Enrichissement de treebanks du francais ,Sylvain Kahane,3.0,,,,,,,,,,,,,,,,,,,Pauline_DÉGEZ_stage_m1_1,,,,
+Perrine_QUENNEHEN,QUENNEHEN,Perrine,Laboratoire,"MODYCO, CNRS",4 mois,Augmentation du corpus Naija de façon automatique,,4.0,,,,,,,Entreprise,Bouygues Construction,6 mois,,,,,,,,,,Perrine_QUENNEHEN_stage_m1_1,,,,Perrine_QUENNEHEN_stage_m2_tetrarechim
+Ashley_RATIER,RATIER,Ashley,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Valentine_FLEITH,FLEITH,Valentine ,Laboratoire,Télécom Paris ,3 mois,"Évaluation automatique de la qualité d'une prise de parole en public (qualité de persuasion, engagement, etc)",,4.0,,,,,,,,,,,,,Stage,,6 mois,,,,Valentine _FLEITH_stage_m1_1,,Valentine _FLEITH_stage_m2_alt_stage,,
+Débora_VAN_DEN_ZANDE ,VAN-DEN-ZANDE ,Débora,,,,,,,,,,,,,,,,,,,Alternance,,,,Civiliz,Améliorer les algorithmes de machine learning dans le cadre de l'analyse sémantique de verbatims de clients.,,,,Débora_VAN-DEN-ZANDE _alt_m2_alt,
+Patricia_AUGUSTYN,AUGUSTYN,Patricia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ioana_Madalina_SILAI,SILAI,Ioana Madalina,Laboratoire,"MODYCO, CNRS",3 mois,Génération automatique des grammaires contrastives ,Sylvain Kahane,4.0,,,,,,,Laboratoire,Modyco,6 mois,Oui,,Sylvain Kahane,,,,,,,Ioana Madalina_SILAI_stage_m1_1,,,,Ioana Madalina_SILAI_stage_m2_tetrarechim
+Marie_DELPORTE_LANDAT,DELPORTE-LANDAT,Marie,,,,,,,,,,,,,Entreprise,,6 mois,Oui,Utilisation des ontologies pour améliorer l’expérience utilisateur sur les chatbots (à préciser),Loïc Grobol,,,,,,,,,,,Marie_DELPORTE-LANDAT_stage_m2_tetrarechim
+Florian_PHILIPPE,PHILIPPE,Florian,Laboratoire,"MODYCO, CNRS",3 mois,Reconnaissance des adverbiaux temporels dans les textes avec des automates,Delphine Battistelli,3.0,,,,,,,Entreprise,ATDI,6 mois,Non,Confidentiel,"Loïc Grobol, Delphine Battistelli",,,,,,,Florian_PHILIPPE_stage_m1_1,,,,Florian_PHILIPPE_stage_m2_tetrarechim
+Lydia_BELHOUL,BELHOUL,Lydia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lucile_BESSAC,BESSAC,Lucile,Laboratoire,"CNRS Pouchet, UMR SFL (structures formelles du langage)",2 mois,"Création d'un outil pour l'extraction, la visualisation et la classification de procédés d'écriture inclusive sur le web (reddit)",Sarra El Ayari,5.0,,,,,,,,,,,,,Alternance,,,,Mollow,Stratégie de référencement du site web (SEO manager),Lucile_BESSAC_stage_m1_1,,,Lucile_BESSAC_alt_m2_alt,
+Kehina_MANSERI,MANSERI,Kehina,Laboratoire,"MODYCO, CNRS",2 mois,Création de jeux sérieux pour l'apprentissage de la LSF et du français,,3.0,,,,,,,Laboratoire,INRIA,6 mois,Oui,Traduction automatique de la LSF au français écrit,Sam Bigeard,,,,,,,Kehina_MANSERI_stage_m1_1,,,,Kehina_MANSERI_stage_m2_tetrarechim
+Maria_Paz_BOTERO,BOTERO,Maria Paz,Laboratoire,"MODYCO, CNRS",3 mois,L'étude de l'interface syntaxe-prosodie en français,Sylvain Kahane,5.0,Laboratoire,CNRS,6 mois,L'étude de l'interface syntaxe-prosodie en français,Sylvain Kahane,5.0,Laboratoire,Modyco,,Oui,L'étude de l'interface syntaxe-prosodie en français,Sylvain Kahane,,,,,,,Maria Paz_BOTERO_stage_m1_1,Maria Paz_BOTERO_stage_m2,,,Maria Paz_BOTERO_stage_m2_tetrarechim
+Alix_SIRVEN_VIÉNOT,SIRVEN-VIÉNOT,Alix,Laboratoire,"MODYCO, CNRS",3 mois,Analyse et annotation de la prise en charge dans des corpus de tweets sexistes et de livres d'histoire,Delphine Battistelli,4.0,,,,,,,Entreprise,EDF,6 mois,Oui,Reconnaissance d'entités nommées,,,,,,EDF,,Alix_SIRVEN-VIÉNOT_stage_m1_1,,,,Alix_SIRVEN-VIÉNOT_stage_m2_tetrarechim
+Solomiia_ KOROL, KOROL,Solomiia ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Yu_ZHANG,ZHANG,Yu,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Yu_ZHANG,ZHANG,Yu,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Manon_GROUVÈS,GROUVÈS,Manon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Keming_YI,YI,Keming,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Xinlei_CHEN,CHEN,Xinlei,Laboratoire,ERTIM,5 mois,Annotation syntaxique sur le mandarin et hokkien,Pierre Magistry,3.0,,,,,,,,,,,,,,,,,,,Xinlei_CHEN_stage_m1_1,,,,
+Lise_BRISSET,BRISSET,Lise,Laboratoire,Laboratoire de Phonétique et Phonologie,3 mois,Analyse de l'âge ,Cédric Gendrot ,3.0,,,,,,,Laboratoire,Laboratoire de Phonétique et Phonologie,4 mois,Oui,Classification automatique de l'âge en fonction des enregistrements et de leurs transcriptions,Cédric Gendrot et Guillaume Wisniewski,,,,,,,Lise_BRISSET_stage_m1_1,,,,Lise_BRISSET_stage_m2_tetrarechim
+Nicolas_NGAUV,NGAUV,Nicolas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Melissa_MAHMOUDI,MAHMOUDI,Melissa,,,,,,,Laboratoire,Nanterre Université,2 mois,Projet VITAL - Analyse outillée du corpus annoté,,4.0,,,,,,,,,,,,,,Melissa_MAHMOUDI_stage_m2,,,
+Yuntian_SHEN,SHEN,Yuntian,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Zineb_CHARIKH,CHARIKH,Zineb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Baptiste_GILLET ,GILLET ,Baptiste,,,,,,,,,,,,,,,,,,,Alternance,,,,Société Isoar,Développer le site  web de l'entreprise // créer un chatbot qui reprenne les concepts de la documentation du logiciel ,,,,Baptiste_GILLET _alt_m2_alt,
+Weiqi_ZHANG,ZHANG,Weiqi,Laboratoire,Inalco,4 mois,Annotation syntaxique de corpus sinitique,Pierre Magistry,3.0,,,,,,,,,,,,,,,,,,,Weiqi_ZHANG_stage_m1_1,,,,
