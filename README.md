@@ -1,5 +1,6 @@
 # ontologie_masterTAL
-L'équipe des Sexy Pépitas vous présente : 
+L'équipe des Pépitas vous présente : 
+
 # L'ontologie du MASTER TAL 
 
 Liste de courses/codes: 
